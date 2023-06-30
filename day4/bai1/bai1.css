@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); *{
+    padding: 0;
+    margin: 0;
+}
+
+#footer{
+    background-color: rgba(3, 50, 86, 0.786);
+    height: 200px;
+    padding-left: 20px;
+    width: 1100px;
+    margin: 50px auto;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;}
+
+#footer .title{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+#footer .title h1 strong{
+    color: rgb(240, 180, 26);
+}
+
+#footer .title h1{
+    padding-bottom: 10px;
+}
+
+#footer .title p{
+    width: 55%;
+}
+
+
+#footer .form-subscribe input{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#footer .form-subscribe button{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#footer:hover input{
+    background-color: #ddd;
+
+}
+
+#footer:hover input::placeholder{
+    color: rgb(240, 180, 26);
+
+}
+
+#footer:hover button{
+    background-color:rgb(240, 180, 26) ;
+    color: #fff;
+}
+ 
+ /* * {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 50px auto;
+    display: block;
+    background-color: #334455;
+    border-radius: 8px;
+    font-family: 'roboto';
+    padding: 20px;
+    box-sizing: border-box;
+    width: 900px;
+}
+
+.title {
+    color: #fff;
+}
+
+.title strong {
+    color: goldenrod;
+}
+
+.subtitle {
+    display: block;
+    margin-top: 10px;
+    width: 500px;
+    color: #fff;
+}
+
+.subscribe-form {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+input, button {
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+}
+
+input {
+    min-width: 260px;
+    height: 30px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    min-width: 160px;
+}
+
+.container:hover input::placeholder {
+    color: goldenrod;
+}
+
+.container:hover input {
+    background-color: #ddd;
+}
+
+.container:hover button {
+    background-color: goldenrod;
+    color: #fff;
+} */
