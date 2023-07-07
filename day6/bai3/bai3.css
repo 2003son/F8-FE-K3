@@ -18,6 +18,9 @@ body{
     position: relative;
 }
 
+
+/* Form1 */
+
 .form{
     position: absolute;
     top: 450px;
@@ -30,33 +33,35 @@ body{
 } 
 
 
-.contach-form{
+.form .contach-form{
     background-color:  #ff574d;
     width: 345px;
     height: 450px;
     border-radius: 10px 0 0 10px;
 }
 
-
-
-.form1{
+.form .contach-form .form1{
     margin-top: 90px;
     text-align: center;
 }
-
-.form1 span{
+ 
+.form .contach-form  .form1 span{
     background-color: #fff;
     padding: 4px 10px;
     border-radius:5px;
     color: #ff574d;
 }
 
-p{
+.form .contach-form  .form1 h2{
+    color: #fff;
+}
+
+.form .contach-form  p{
     padding: 20px 0;
     color: #fff;
 }
 
-.contach-form .form1 button{
+.form .contach-form .form1 button{
     margin-top: 15px;
     padding: 10px 30px;
     border-radius: 5px;
@@ -65,7 +70,7 @@ p{
     color: #ff574d;
 }
 
-.form .contach-form .icon{
+.form .contach-form .form1 .icon{
     margin-top: 40px;
 }
 
@@ -78,8 +83,8 @@ p{
 
 }
 
-
-.icon-right{
+/* Arrow direction */
+.icon-left{
     position: absolute;
     background-color: #fff;
     padding: 11px 14px;
@@ -88,12 +93,15 @@ p{
     box-shadow: 0 0 10px rgba(90, 89, 89, 0.3);
 } 
 
-.icon-right .material-symbols-outlined{
+.icon-left .material-symbols-outlined{
     font-size: 20px;
     font-weight: bold;
     color: #ff574d;
 }
 
+
+
+/* Form2 */
 
 .login{
     background-color: rgb(240, 244, 244);
@@ -102,22 +110,22 @@ p{
     border-radius: 0 10px 10px 0;
 
 }
-.form2{
+.login .form2{
     text-align: center;
     margin-top: 55px;
 }
 
-.form-login{
+.login .form2 .form-login{
     padding-top: 20px;
 }
 
-.login h2{
+.login .form2 h2{
     text-align: center;
     position: relative;
     color:  #272323;
 }
 
-.login h2::after{
+.login .form2 h2::after{
     content: "";
     display: block;
     width: 50px;
@@ -128,10 +136,10 @@ p{
     top: 40px;
 }
 
-.login h2 span{
+.login .form2 h2 span{
     color: #ff574d;
 }
-.email{
+.login .form2 .form-login .email{
     margin: 23px 0;
 }
 
@@ -141,24 +149,24 @@ input{
     padding-left: 20px;
 }
 
-.login .checkbox{
+.login .form2 .form-login .checkbox{
     margin-top: 20px;
 }
 
-.login .checkbox label{
+.login .form2 .form-login .checkbox label{
     padding-right: 125px
 }
 
-.login a{
+a{
     text-decoration: none;
     color: #272323;
 }
 
-.btn{
+.login .form2 .form-login .btn{
     margin: 20px;
 }
 
-.btn button{
+.login .form2 .form-login .btn button{
     padding: 15px 165px;
     background-color:  #ff574d;
     border: none;
